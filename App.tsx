@@ -7,7 +7,7 @@ const App: React.FC = () => {
   const [data, setData] = useState<PortfolioData>(INITIAL_PORTFOLIO);
 
   const handleDownloadResume = () => {
-    window.open('/Tanmay_Mandal_Resume.pdf', '_blank');
+    window.open('/Tanmay_Mandal_Content_Writer_Resume', '_blank');
   };
 
   return (
